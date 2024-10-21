@@ -26,7 +26,7 @@ public class longestcommonprefix {
 		}
 	}
 	
-	return index==0?"":first.substring(0, index);	
+	return index==0?null:first.substring(0, index);	
 	}
 	
 
